@@ -11,13 +11,13 @@ body {
     --color-link: #ec1752;
     --color-link-hover: #eb1851;
     --color-info: #272526;
-    --grid-item-bg: #f1f1f1;
-    --color-close: #ec1752;
+    --grid-item-bg: #f1f1f100;
+    --color-close: #ec175300;
 	font-family: Futura, "futura-pt", sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0);
 	background-color: var(--color-bg);
 }
 
@@ -417,7 +417,7 @@ main {
 		font-size: 3vw;
 	}
 	.content__item-text {
-  		column-count: 2;
+  		column-count: 1;
   		column-gap: 20px;
   	}
 	.content__item-img {
